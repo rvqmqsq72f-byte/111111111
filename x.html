@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Контакты</title>
+<style>
+    body {
+        margin: 0;
+        background: #0b0f17;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .contact-card {
+        background: #0f1623;
+        padding: 40px;
+        border-radius: 16px;
+        box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+        text-align: center;
+        max-width: 400px;
+        width: 90%;
+        border: 1px solid rgba(255, 215, 0, 0.15);
+    }
+
+    .contact-title {
+        font-size: 22px;
+        margin-bottom: 25px;
+        color: #f5c542;
+        font-weight: 600;
+    }
+
+    .contact-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        padding: 14px 22px;
+        border-radius: 12px;
+        text-decoration: none;
+        color: #000;
+        background: linear-gradient(135deg, #f5c542, #ffd700);
+        transition: 0.3s;
+        font-weight: 600;
+        box-shadow: 0 6px 20px rgba(255, 215, 0, 0.25);
+    }
+
+    .contact-link:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 25px rgba(255, 215, 0, 0.4);
+    }
+
+    .icon {
+        width: 20px;
+        height: 20px;
+        fill: #000;
+    }
+</style>
+</head>
+<body>
+
+<div class="contact-card">
+    <div class="contact-title">
+        Отвечу на любые ваши вопросы
+    </div>
+
+    <!-- Email кнопка -->
+    <a href="mailto:yandex.rabota_2026@mail.ru" class="contact-link">
+        <svg class="icon" viewBox="0 0 24 24">
+            <path d="M12 13.065L.015 4.5A2 2 0 012 3h20a2 2 0 011.985 1.5L12 13.065zM0 6.236v11.528l8.803-6.41L0 6.236zm9.761 6.92l-9.76 7.102A2 2 0 002 21h20a2 2 0 001.999-1.742l-9.76-7.102L12 14.935l-2.239-1.78zM24 6.236l-8.803 5.118L24 17.764V6.236z"/>
+        </svg>
+        Написать на почту
+    </a>
+</div>
+
+</body>
+</html>
